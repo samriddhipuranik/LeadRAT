@@ -58,7 +58,7 @@ function Main(props) {
     ],
   ];
 
-  let ticketNumber = props.quanityOfTicker;
+  let ticketNumber = props.quanityOfTicket;
   let ticketType = props.type;
   const [showConfetti, setShowConfetti] = useState(false);
   const [seats, setSeats] = useState(

@@ -5,7 +5,7 @@ import { PiArmchairDuotone } from "react-icons/pi"
 
 function App() {
   const [ticketType, setTicketType] = useState('Standard');
-  const [quanityOfTicker, setQuantityOfTicker] = useState('')
+  const [quanityOfTicket, setQuantityOfTicker] = useState('')
 
   const ticketTypeHandler = (event) => {
     setTicketType(event.target.value);
@@ -32,8 +32,8 @@ function App() {
               </select>
 
               <label htmlFor="qty" >Ticket Quantity:</label>
-              <select id="qty" value={quanityOfTicker} onChange={quantityHandler}>
-                <option value="">Qnty</option>
+              <select id="qty" value={quanityOfTicket} onChange={quantityHandler}>
+                <option value="">Qty</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -47,7 +47,7 @@ function App() {
 
               </select>
             </div>
-            <Main type={ticketType} quanityOfTicker={quanityOfTicker} />
+            <Main type={ticketType} quanityOfTicket={quanityOfTicket} />
 
           </div>
           <div className='right'>
