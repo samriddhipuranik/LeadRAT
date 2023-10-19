@@ -22,27 +22,39 @@
   align-items: center;
   flex-direction: column;
 }
-
 .header {
   display: flex;
-  background-color: #cc4343;
+  background: linear-gradient(45deg, #FF6B6B, #FFACAC); 
   padding: 2px;
-  justify-content: space-around; 
-  color: #fff; 
-  text-align: center; 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  justify-content: space-around;
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
   position: sticky;
   top: 0;
-  z-index: 1; 
+  z-index: 1;
   margin-bottom: 20px;
+  transition: background 0.3s ease-in-out;
+}
+
+.header:hover {
+  background: linear-gradient(45deg, #FF6B6B, #FFACAC); 
 }
 
 .header h2 {
-  font-size: 14px;
+  font-size: 24px; 
+  margin: 0;
+  text-transform: uppercase; 
+  letter-spacing: 2px; 
 }
 
 .header p {
-  font-size: 13px; 
+  font-size: 18px; 
+  margin: 0;
+}
+
+.header p:first-of-type {
+  font-weight: bold; 
 }
 
 .dropdown{
