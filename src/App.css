@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'Lato', sans-serif;
+    margin-left: 2px;
 }
 
 .main_container{
@@ -22,11 +23,34 @@
   flex-direction: column;
 }
 
+.header {
+  display: flex;
+  background-color: #cc4343;
+  padding: 2px;
+  justify-content: space-around; 
+  color: #fff; 
+  text-align: center; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 1; 
+  margin-bottom: 20px;
+}
+
+.header h2 {
+  font-size: 14px;
+}
+
+.header p {
+  font-size: 13px; 
+}
+
 .dropdown{
   width: 100%;
   display: flex;
   align-items: center;
   gap: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .App{

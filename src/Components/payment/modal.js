@@ -12,7 +12,8 @@ function Modal({ isOpen, onClose, quantity, ticketType }) {
           <span className="close" onClick={onClose}>
             &times;
           </span>
-          <h3>Details</h3>
+          <h3>Details: </h3>
+          <br></br>
           <p>
             <em>Number of seats booked: {quantity}</em>
           </p>
@@ -20,7 +21,7 @@ function Modal({ isOpen, onClose, quantity, ticketType }) {
             <em>Ticket Type: {ticketType}</em>
           </p>
             <div>
-          <img src={payImg} alt="payment done!" />
+          <img src={payImg} alt="payment done!" style={{position:'relative',left:'45%'}} />
           </div>
         
         </div>

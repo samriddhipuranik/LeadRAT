@@ -44,36 +44,6 @@
   width: 35px;
   height: 35px;
 }
-.center{
-text-align: center;
-}
-
-.btn {
-  width: 120px;
-  height: 40px;
-  position: absolute;
-  color: white;
-  background-color: #ff4d4d;
-  bottom: 10px;
-  right: 15%;
-  border: none;
-  outline: none;
-  border-radius: 10px;
-  cursor: pointer;
-  font-family: Arial, sans-serif;
-  font-size: 14px;
-  text-align: center;
-  line-height: 40px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
-}
-
-.btn:hover {
-  background-color: #ff3333;
-  transform: scale(1.05);
-}
-
-
 .hover:hover {
   cursor: pointer;
   filter: invert(95%) sepia(41%) saturate(6882%) hue-rotate(54deg) brightness(90%) contrast(108%);
@@ -84,19 +54,22 @@ text-align: center;
 }
 
 .pay_btn {
-  border: none;
   padding: 20px;
   font-size: 14px;
-  position: relative;
+  position: absolute;
+  right: 25%;
+  bottom: 50px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   background: transparent;
-  color: #ffbd03;
+  color: #090909;
+  font-weight: bold;
   text-transform: uppercase;
   border: 3px solid #ffbd03;
   cursor: pointer;
   transition: all 0.5s;
   overflow: hidden;
   border-radius: 80px;
-  bottom: 3px;
+  bottom: 30px;
 }
 
 .pay_btn:hover {

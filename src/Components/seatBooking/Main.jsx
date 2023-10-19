@@ -244,7 +244,6 @@ function Main(props) {
         <p>All eyes this way please!</p>
       </div>
       <br></br>
-      <div className="center">
         <button
           className="pay_btn"
           onClick={proceedHandler}
@@ -269,9 +268,9 @@ function Main(props) {
   </>
 )}
       </div>
-
-    </div>
+    
   );
+  
 }
 
 export default Main;

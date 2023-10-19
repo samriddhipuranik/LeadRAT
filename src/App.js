@@ -23,7 +23,15 @@ function App() {
 
         <div className="App">
           <div className='left'>
+
+          <div className="header">
+              <h2>Book Your Show!</h2>
+              <p>Title: Zindagi Na Milegi Dobara</p>
+              <p>Show Time: 7:00 PM</p>
+        </div>
+
             <div className='dropdown'>
+
 
               <label htmlFor="tickettype" >Ticket Type:</label>
               <select id="tickettype" value={ticketType} onChange={ticketTypeHandler}>
