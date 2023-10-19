@@ -18,18 +18,15 @@ function App() {
   return (
     <div className='main_container'>
       <div className='main_container_inner'>
-
-
-
-        <div className="App">
-          <div className='left'>
-
-          <div className="header">
+ 
+      <div className="header">
               <h2>Book Your Show!</h2>
               <p>Title: Zindagi Na Milegi Dobara</p>
               <p>Show Time: 7:00 PM</p>
         </div>
 
+        <div className="App">
+          <div className='left'>
             <div className='dropdown'>
 
 

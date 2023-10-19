@@ -211,7 +211,7 @@ function Main(props) {
       {seats.map((row, index1) => {
         return (
           <div key={index1} style={{ display: "flex", width: "100%" }}>
-            <div style={{ width: "40px", marginTop: "15px" }}>
+            <div style={{ width: "40px", marginTop: "15px", marginLeft:'10px' }}>
               {String.fromCharCode(69 + index1)}
             </div>
             {row.map((seat, index2) => (

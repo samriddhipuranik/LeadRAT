@@ -10,6 +10,7 @@
   border-top: 1px solid black;
   border-left: 1px solid black;
   overflow-y: auto; 
+
 }
 
 .container::-webkit-scrollbar {
@@ -54,10 +55,10 @@
 }
 
 .pay_btn {
-  padding: 10px;
+  padding: 20px;
   font-size: 14px;
-  position: absolute;
-  right: 25%;
+  position: relative;
+  left: 40%;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   background: transparent;
   color: #090909;
@@ -68,7 +69,8 @@
   transition: all 0.5s;
   overflow: hidden;
   border-radius: 80px;
-  bottom: 30px;
+  bottom: 100px;
+  line-height: 0px;
 }
 
 .pay_btn:hover {
