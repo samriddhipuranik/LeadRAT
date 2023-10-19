@@ -54,11 +54,10 @@
 }
 
 .pay_btn {
-  padding: 20px;
+  padding: 10px;
   font-size: 14px;
   position: absolute;
   right: 25%;
-  bottom: 50px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   background: transparent;
   color: #090909;
